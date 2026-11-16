@@ -3,7 +3,6 @@
 int main(void)
 {
     int input;
-    int x;
     scanf("%d", &input);
     if (0<=input&&input<15&&input!=10&&input!=11)
     {
