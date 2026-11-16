@@ -5,7 +5,7 @@ int main(void)
     int input;
     int x;
     scanf("%d", &input);
-    if (0<=input&&input<5||6<input&&input<10||11<input&&input<15)
+    if (0<=input&&input<15&&input!=10&&input!=11)
     {
         printf("OK");
     }
