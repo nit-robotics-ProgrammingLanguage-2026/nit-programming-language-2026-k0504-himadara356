@@ -5,8 +5,7 @@ int main(void)
     int input;
     int x;
     scanf("%d", &input);
-    x = input;
-    if (0<=x&&x<=5)
+    if (0<=input&&input<=5)
     {
         printf("OK");
     }
